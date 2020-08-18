@@ -1,9 +1,8 @@
-
-[Visit My Site](https://edwardreyes29.github.io/)
-
-## AUTHOR
+## Author
 
 Edward Reyes
+
+[Visit My Site](https://edwardreyes29.github.io/)
 
 ## CONCEPT
 I updated my portfolio to have a more simple aesthetic. I've also added more recent projects and will be adding more soon.
