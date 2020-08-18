@@ -28,7 +28,7 @@ I updated my portfolio to have a more simple aesthetic. I've also added more rec
 
 ## LINK TO DEPLOYED APPLICATION / GITHUB
 
-[GitHub Pages](https://edwardreyes29.github.io/portfolio/)
+[GitHub Pages](https://edwardreyes29.github.io/)
 
 ## Screen shots
 
