@@ -1,11 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Edward Reyes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <p>This is my site</p>
+    <div class="container">
+        <div class="wrapper">
+            <header role="banner">
+                <nav role="navigation" class="navbar navbar-expand-lg pl-0">
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav nav-tabs border border-0 mr-auto" id="main-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active text-light pl-1 pl-md-0" id="home-tab" data-toggle="tab"
+                                    href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-light" id="about-tab" data-toggle="tab" href="#about" role="tab"
+                                    aria-controls="about" aria-selected="false">About</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-light" id="portfolio-tab" data-toggle="tab" href="#portfolio"
+                                    role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-light" id="contact-tab" data-toggle="tab" href="#contact"
+                                    role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main role="main">
+                <div class="tab-content" id="main-tab-content">
+                    <!-- Home -->
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="h-100 d-flex">
+                            <img id="home-image" class="img-fluid w-100" src="assets/images/home.svg">
+                        </div>
+                    </div>
+                    <!-- About -->
+                    <div class="tab-pane fade text-light" id="about" role="tabpanel" aria-labelledby="about-tab">
+                        <h3 class='text-light'>About me</h3>
+                        <p>My name is Edward Reyes. I am a Software Developer and a recent graduate from
+                            California
+                            State University. While earning my Bachelor’s degree, I have taken Student Assistant
+                            positions as a Tutor for the Engineering department and then after a Web Developer
+                            for the
+                            CSUN’s Career Center. There I’ve learned many skills required for Web Development. I
+                            was
+                            tasked with creating an interactive webpage where I had to use JavaScript and CSS to
+                            implement animations and trigger events. I have learned JavaScript along with
+                            jQuery,
+                            Node.js, and ES6 standard. The most valuable skill I’ve learned during my time
+                            working for
+                            CSUN’s Career Center was learning new tools very quickly and applying my knowledge
+                            to
+                            complete a task. Since then I have been improving my frontend web development skills
+                            and I
+                            have used and worked with Bootstrap.js which I have used heavily to build my
+                            personal
+                            website.
+                        </p>
+                    </div>
+                    <!-- Projects -->
+                    <div class="tab-pane fade text-light" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
+                        <!-- Project Header -->
+                        <h3 class='text-light'>Projects</h3>
+                        <p>All of these sites are public on <a class="text-light"
+                                href="https://github.com/edwardreyes29" style="text-decoration: underline;">GitHub</a>
+                        </p>
+                        <div id="projects-div" class="row d-flex justify-content-between"></div> <!-- add projects here -->
+                        <div id="modals-div"></div> <!-- Add modals here -->
+                    </div>
+                    <!-- Contact -->
+                    <div class="tab-pane fade text-light" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="row">
+                            <div class="col-12 col-sm-3 mr-2">
+                                <h3>Contact Me</h3>
+                                <p>Please feel free to get in touch, and I will
+                                    respond as soon as possible.
+                                    If you prefer to contact me directly, send your Email to:
+                                    reyes.edwardf@gmail.com
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="nameInput">Name:*</label>
+                                        <input type="text" class="form-control" id="nameInput"
+                                            placeholder="You Name" required>
+                                        <!-- <div class="valid-feedback">
+                                            Looks good!
+                                        </div> -->
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="emailInput">Email:*</label>
+                                        <input type="email" class="form-control" id="emailInput"
+                                            placeholder="You Email Address">
+                                    </div>
+                                    <div class="form-group mb-1">
+                                        <label for="exampleFormControlTextarea1">Your Message:* <span
+                                                style="font-size: x-small">(1000 characters)</span></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            placeholder="Your Message" rows="5"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-outline-light mb-1">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer role="contentinfo" class="pt-2 pb-2 border-top">
+                <div class="d-flex align-content-end">
+                    <div class="d-flex align-content-center justify-content-between mr-auto">
+                        <a href="#" class="mr-1" target="_blank" title="Edward Reyes">
+                            <img id="logo-footer" src="assets/icons/logo-white.svg" alt="Edward Reyes Logo"
+                                width="25"></a>
+                        <div class="mt-auto mb-auto">
+                            <p id="copy-footer" class="text-light">&copy; 2020</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="https://github.com/edwardreyes29" class="w-100" title="Check out my GitHub"
+                            target="_blank">
+                            <img id="git-logo-footer" src="assets/icons/github-white.svg" width="25">
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/script.js"></script>
+
 </body>
+
 </html>

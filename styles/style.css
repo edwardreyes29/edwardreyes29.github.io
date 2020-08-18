@@ -1,0 +1,109 @@
+html,
+body {
+    height: 100%;
+    position: relative;
+    background-color:#353A3F;
+    transition: .3s ease;
+}
+
+.wrapper {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: .3s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*#### Nav Styles ####*/
+.nav-item .active {
+    text-decoration: underline;
+}
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+#main-tab li a {
+    border: 0;
+    /* background-color: #353A3F; */
+    background-color: #353A3F;
+    transition: .3s ease;
+}
+#main-tab li a:hover {
+    border: 0;
+    background-color:#353A3F;
+}
+
+/*#### Home Styles ####*/
+#home {
+    height: 75vh;
+}
+#projects-div {
+    padding-left: 0px;
+}
+@media (max-width:575px) {
+    #projects-div {
+        padding-left: 0px;
+    }
+    
+}
+
+@media (max-width: 365px) {
+    #home {
+        height: 60vh;
+    }
+}
+
+/*#### Project Styles ####*/
+/* .portfolio-page-title-container {
+    width: 90%;
+} */
+
+
+.project-image-container {
+    position: relative;
+    /* border: 5px solid transparent; */
+    transition: .3s ease;
+    right: 5px;
+}
+.project-image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    transition: .5s ease;
+    background-color: #353535;
+}
+
+.project-image-container:hover .project-image-overlay {
+    opacity: 0;
+}
+/* .project-image-container:hover {
+    border: 5px solid #6E757C;
+} */
+
+.overflow-container {
+    overflow: auto;
+}
+
+/* Color changing styles */
+#home-image, #git-logo-footer, #logo-footer, #copy-footer, 
+#home-tab, #about-tab, #portfolio-tab, #contact-tab, .navbar-toggler {
+    transition: .3s ease;
+}
+
+
