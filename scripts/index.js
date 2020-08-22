@@ -98,13 +98,9 @@ projects = [
         short_description: "Allows the user to save events for each hour of the day. ",
         long_description:
             `<h5>Concept</h5>
-            <p>Allows the user to save events for each hour of the day. Time-blocks are color coded to indicate whether it is in the past (grey), present (red), or future(green). Users can also enter events and save them in the browsers local storage so users can view their events later.</p>
-            <h5>HTML & Moment.js</h5>
-            <p>The app uses moment.js library to work with the date and time. I used it both to display the current day and time in the jumbotron, and also used to to color code time-blocks. All of these were done in a script tag in the index.html file.</p>
-            <h5>CSS & Bootstrap</h5>
-            <p>I only created a @media rule in css to change the text size for the hours. For Bootstrap I used several classes to style the page. I used .container-fluid on he div that surrounds all the time-blocks to make the bootstrap responsive. I also added .col classes that have breakpoints to change their size when the viewport reaches a certain size.</p>
-            <h5>JavaScript</h5>
-            <p>I have two functions and a click assigned to the save button event to save the events. The first function, called initEvents(),initializes the events array with the objects saved in the localStorage. The second function, called renderEvents(), assigns the appropriate textarea elements with the corresponding description. The save button is assigned a click event, and I've added extra code that notifies the user if they either saved and event or not. An event is not save if it contains an empty string and notifies the user.</p>
+            <p>Takes in information about employees and generates an HTML webpage that displays summaries for each person. Since testing is a key piece in making code maintainable, you will also be ensuring that all unit tests pass.</p>
+            <h5>Site information Display/h5>
+            <p>Displays Employee name, id, email, and/or office number, GitHub user, school</p>
             `,
         images: [
             "https://raw.githubusercontent.com/edwardreyes29/edwardreyes29.github.io/master/assets/images/team_generator/html.png",
