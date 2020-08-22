@@ -107,9 +107,8 @@ projects = [
             <p>I have two functions and a click assigned to the save button event to save the events. The first function, called initEvents(),initializes the events array with the objects saved in the localStorage. The second function, called renderEvents(), assigns the appropriate textarea elements with the corresponding description. The save button is assigned a click event, and I've added extra code that notifies the user if they either saved and event or not. An event is not save if it contains an empty string and notifies the user.</p>
             `,
         images: [
-            "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/CalendarApp/main-page.png",
-            "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/CalendarApp/color-coded-time.png",
-            "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/CalendarApp/responsive.png"
+            "https://raw.githubusercontent.com/edwardreyes29/edwardreyes29.github.io/master/assets/images/team_generator/html.png",
+            "https://raw.githubusercontent.com/edwardreyes29/edwardreyes29.github.io/master/assets/images/team_generator/node.png"
         ],
         links: { deployed: "https://www.youtube.com/watch?v=2M0senCK0aU&feature=youtu.be", github: "https://github.com/edwardreyes29/TeamGenerator" }
     }
