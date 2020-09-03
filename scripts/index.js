@@ -141,16 +141,6 @@ projects = [
                 <li>View employees by manager</li>
                 <li>Delete departments, roles, and employees</li>
                 <li>View the total utilized budget of a department (i.e. the combined salaries of all employees in that department)</li>
-            </ul>
-            <h5>User Story</h5>
-            <ul>  
-                <li>View number of confirmed cases</li>
-                </li>View number of Deaths</li>
-                </li>View a map display of color-coded areas highlighting hot spots</li>
-                </li>Display US map with color-coded areas that displays case information.</li>
-                </li>Button that toggles between US map and World map.</li>
-                </li>Clickable locations that displays three random hotel locations and risk levels.</li>
-                </li>Book now feature that links the user to Trip Advisor</li>
             </ul>`,
         images: [
             "https://raw.githubusercontent.com/edwardreyes29/EmployeeTracker/master/assets/main.png",
