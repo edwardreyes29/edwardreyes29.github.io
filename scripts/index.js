@@ -109,6 +109,24 @@ projects = [
         links: { deployed: "https://www.youtube.com/watch?v=2M0senCK0aU&feature=youtu.be", github: "https://github.com/edwardreyes29/TeamGenerator" }
     },
     {
+        name: "Note Taker App",
+        short_description: "This app uses express.js to get and post notes to a json file, allowing users to add, save, and delete notes.",
+        long_description:
+            `<h5>Description</h5>
+            <p>This app uses express.js to get and post notes to a json file, allowing users to add, save, and delete notes.</p>
+            <h5>Back End Development</h5>
+            <p>Learned to work with express to create routes get and post data and send appropriate responses depending on the situation.</p>
+            <h5>Technologies used:</h5>
+            <p>HTML, CSS, Bootstrap, JavaScript, Express.js, jQuery</p>
+            `,
+        images: [
+            "https://raw.githubusercontent.com/edwardreyes29/note_taker/master/assets/main.png",
+            "https://raw.githubusercontent.com/edwardreyes29/note_taker/master/assets/note1.png",
+            "https://raw.githubusercontent.com/edwardreyes29/note_taker/master/assets/note2.png"
+        ],
+        links: { deployed: "https://afternoon-reef-26658.herokuapp.com/", github: "https://github.com/edwardreyes29/note_taker" }
+    },
+    {
         name: "Employee Tracker using Node.js MySQL and Inquirer",
         short_description: "This app is an Content Management Systems built with Node.js.",
         long_description:
