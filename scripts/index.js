@@ -103,11 +103,43 @@ projects = [
             <p>Displays Employee name, id, email, and/or office number, GitHub user, school</p>
             `,
         images: [
-            "https://raw.githubusercontent.com/edwardreyes29/edwardreyes29.github.io/master/assets/images/team_generator/html.png",
-            "https://raw.githubusercontent.com/edwardreyes29/edwardreyes29.github.io/master/assets/images/team_generator/node.png"
+            "https://raw.githubusercontent.com/edwardreyes29/TeamGenerator/master/Assets/main.png",
+            "https://raw.githubusercontent.com/edwardreyes29/TeamGenerator/master/Assets/console.png"
         ],
         links: { deployed: "https://www.youtube.com/watch?v=2M0senCK0aU&feature=youtu.be", github: "https://github.com/edwardreyes29/TeamGenerator" }
-    }
+    },
+    {
+        name: "Employee Tracker using Node.js MySQL and Inquirer",
+        short_description: "This app is an Content Management Systems built with Node.js.",
+        long_description:
+            `<h5>Description</h5>
+            <p>This app is an Content Management Systems built with Node.js.</p>
+            <p>The app allows the user to:</p>
+            <ul>
+                <li>Add departments, roles, employees</li>
+                <li>View departments, roles, employees</li>
+                <li>Update employee roles</li>
+                <li>Update employee managers</li>
+                <li>View employees by manager</li>
+                <li>Delete departments, roles, and employees</li>
+                <li>View the total utilized budget of a department (i.e. the combined salaries of all employees in that department)</li>
+            </ul>
+            <h5>User Story</h5>
+            <ul>  
+                <li>View number of confirmed cases</li>
+                </li>View number of Deaths</li>
+                </li>View a map display of color-coded areas highlighting hot spots</li>
+                </li>Display US map with color-coded areas that displays case information.</li>
+                </li>Button that toggles between US map and World map.</li>
+                </li>Clickable locations that displays three random hotel locations and risk levels.</li>
+                </li>Book now feature that links the user to Trip Advisor</li>
+            </ul>`,
+        images: [
+            "https://raw.githubusercontent.com/edwardreyes29/EmployeeTracker/master/assets/main.png",
+            "https://raw.githubusercontent.com/edwardreyes29/EmployeeTracker/master/assets/budget.png"
+        ],
+        links: { deployed: "https://www.youtube.com/watch?v=C0KIq9OwxxA&feature=youtu.be", github: "https://github.com/edwardreyes29/EmployeeTracker" }
+    },
 ];
 
 function addProjects() {
@@ -136,7 +168,7 @@ function addProjects() {
                         <div class="d-flex mb-2">
                             <img src="assets/icons/arrow-up-circle-white.svg" class="mr-1">
                             <a class="project-link-${i + 1} text-reset" href="${projects[i].links.deployed}" title="project-deployed"
-                                                target="_blank" style="text-decoration: underline;">Deployed Site</a> <!-- js target -->
+                                                target="_blank" style="text-decoration: underline;">Deployed Link</a> <!-- js target -->
                     </div>
                     <div class="d-flex mb-2">
                         <img src="assets/icons/github-white.svg" class="mr-1">
