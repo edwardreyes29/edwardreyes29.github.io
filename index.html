@@ -98,10 +98,11 @@
                                 </p>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <form>
+                                <form action="https://formspree.io/xwkrggjp"
+                                    method="POST">
                                     <div class="form-group">
                                         <label for="nameInput">Name:*</label>
-                                        <input type="text" class="form-control" id="nameInput"
+                                        <input type="text" name="name" class="form-control" id="nameInput"
                                             placeholder="You Name" required>
                                         <!-- <div class="valid-feedback">
                                             Looks good!
@@ -109,16 +110,20 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="emailInput">Email:*</label>
-                                        <input type="email" class="form-control" id="emailInput"
+                                        <input type="email" name="_replyto" class="form-control" id="emailInput"
                                             placeholder="You Email Address">
                                     </div>
                                     <div class="form-group mb-1">
-                                        <label for="exampleFormControlTextarea1">Your Message:* <span
+                                        <label for="messageInput">Your Message:* <span
                                                 style="font-size: x-small">(1000 characters)</span></label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                        <textarea name="message" class="form-control" id="messageInput"
                                             placeholder="Your Message" rows="5"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-outline-light mb-1">Send</button>
+                                    <div class="status text-danger mb-2">
+
+                                    </div>
+
+                                    <button type="submit" value="Send" class="submit btn btn-outline-light mb-1">Submit</button>
                                 </form>
                             </div>
                         </div>
@@ -156,6 +161,7 @@
         crossorigin="anonymous"></script>
     <script src="scripts/index.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/email-form.js"></script>
 
 </body>
 
