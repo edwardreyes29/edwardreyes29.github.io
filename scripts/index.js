@@ -34,6 +34,65 @@ projects = [
         links: { deployed: "https://edwardreyes29.github.io/project-1/", github: "https://github.com/edwardreyes29/project-1" }
     },
     {
+        name: "Afterly",
+        short_description: "User-friendly marketplace for end of life services",
+        long_description:
+            `<h5>Description</h5>
+            <p>
+                Few people are truly prepared for the passing of friends or family.
+                The current marketplace is confusing to navigate.
+                Family members or friends already deal with emotional stress
+                Afterly addresses these issues.
+                Provides and easy-to-use web platform to organize the most important end of life services.
+            </p>
+            <h5>Afterly Allows users dave information for the following:</h5>
+            <ul>  
+                <li>Hospice care</li>
+                <li>Lawyers</li>
+                <li>Life insurance</li>
+                <li>Funeral homes</li>
+            </ul>
+            <h5>Additional functions: </h5>
+            <ul>  
+                <li>Share your plans with close family and friends</li>
+                <li>Make a plan for relatives</li>
+                <li>Upload scanned pictures of a death certificate, important forms, etc</li>
+                <li>Create forms</li>
+                <li>Update forms</li>
+            </ul>
+            <h5>Technologies:</h5>
+                <p>Frontend:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BOOTSTRAP</li>
+                    <li>SEMANTIC UI</li>
+                </ul>
+                <p>Backend:</p>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>MySQL</li>
+                    <li>Sequelize</li>
+                    <li>jQuery</li>
+                    <li>Ajax</li>
+                    <li>Express.js</li>
+                    <li>yelp API</li>
+                    <li>yelp-fusion.js</li>
+                    <li>Passport.js</li>
+                    <li>Bycrypt.js</li>
+                </ul>
+            </h5>`,
+        images: [
+            "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/main.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/login.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/form.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/after-select.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/generate-doc.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/Afterly-UML.png"
+        ],
+        links: { deployed: "https://sheltered-escarpment-16015.herokuapp.com/", github: "https://github.com/edwardreyes29/Afterly" }
+    },
+    {
         name: "Weather App",
         short_description: "This app allows you to search a location and view weather data such has temperature, cloud conditions, humidity, wind speeds, wind directions, and UV index.",
         long_description:
