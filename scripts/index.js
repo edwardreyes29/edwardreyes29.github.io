@@ -83,12 +83,12 @@ projects = [
                 </ul>
             </h5>`,
         images: [
-            "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/main.png",
             "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/login.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/main.png",
             "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/form.png",
             "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/after-select.png",
             "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/generate-doc.png",
-            "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/Afterly-UML.png"
+            "https://raw.githubusercontent.com/edwardreyes29/edwardreyes29.github.io/master/assets/images/afterly/afterly-screenshot.png"
         ],
         links: { deployed: "https://sheltered-escarpment-16015.herokuapp.com/", github: "https://github.com/edwardreyes29/Afterly" }
     },
@@ -131,6 +131,20 @@ projects = [
             "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/csun-self-exploration/hover-info.png"
         ],
         links: { deployed: "https://www.csun.edu/career/self-exploration", github: "https://github.com/edwardreyes29/self_exploration_page" }
+    },
+    {
+        name: "Eat-Dat-Burger MySQL Express.js App",
+        short_description: "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.",
+        long_description:
+            `<h5>Concept</h5>
+            <p>This project follows the MVC design pattern. It uses Node and MySQL to query and route data the app and Handlebars to generate your HTML.</p>
+            `,
+        images: [
+            "https://raw.githubusercontent.com/edwardreyes29/Eat-Da-Burger/master/assets/main.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Eat-Da-Burger/master/assets/devour.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Eat-Da-Burger/master/assets/full.png"
+        ],
+        links: { deployed: "https://sheltered-earth-16745.herokuapp.com/", github: "https://github.com/edwardreyes29/Eat-Da-Burger" }
     },
     {
         name: "Calendar App",
