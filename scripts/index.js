@@ -34,6 +34,22 @@ projects = [
         links: { deployed: "https://edwardreyes29.github.io/project-1/", github: "https://github.com/edwardreyes29/project-1" }
     },
     {
+        name: "Employee Directory Using React",
+        short_description: "This is an employee directory created using React.js.",
+        long_description:
+            `<h5>User Story</h5>
+            <p>As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.</p>
+            <h5>Business Context</h5>
+            <p>An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.</p>`,
+        images: [
+            "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/main.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/search-dob.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/search-name.png",
+            "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/search-phone.png"
+        ],
+        links: { deployed: "https://determined-kowalevski-974a9d.netlify.app/", github: "https://github.com/edwardreyes29/Employee_Directory" }
+    },
+    {
         name: "Afterly",
         short_description: "User-friendly marketplace for end of life services",
         long_description:
