@@ -1,0 +1,19 @@
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: "red";
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.link {
+  text-decoration: "none";
+  color: "white";
+}
+
+a {
+  text-decoration: none;
+  outline : none;
+}

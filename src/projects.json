@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Secure Travel App",
+    "description": "A travel app that advises where to travel based on Coronavirus risk recommendations",
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/project-1/world-cases.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/project-1/us-cases.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/project-1/news.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/project-1/hotel-listings.png"
+    ],
+    "links": {
+      "deployed": "https://edwardreyes29.github.io/project-1/",
+      "github": "https://github.com/edwardreyes29/project-1"
+    }
+  },
+  {
+    "name": "Employee Directory Using React",
+    "description": "This is an employee directory created using React.js.",
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/main.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/search-dob.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/search-name.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/search-phone.png"
+    ],
+    "links": {
+      "deployed": "https://determined-kowalevski-974a9d.netlify.app/",
+      "github": "https://github.com/edwardreyes29/Employee_Directory"
+    }
+  },
+  {
+    "name": "Afterly",
+    "description": "User-friendly marketplace for end of life services",
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/login.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/main.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/form.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/after-select.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/generate-doc.png",
+      "https://raw.githubusercontent.com/edwardreyes29/edwardreyes29.github.io/master/assets/images/afterly/afterly-screenshot.png"
+    ],
+    "links": {
+      "deployed": "https://sheltered-escarpment-16015.herokuapp.com/",
+      "github": "https://github.com/edwardreyes29/Afterly"
+    }
+  },
+  {
+    "name": "Weather App",
+    "description": "This app allows you to search a location and view weather data.",
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/modal-images/WeatherApp-home.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/WeatherApp/tomorrow-weather.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/WeatherApp/5-day-forecast.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/WeatherApp/saved-searches.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/WeatherApp/mobile-responsive.png"
+    ],
+    "links": {
+      "deployed": "https://edwardreyes29.github.io/WeatherApp/",
+      "github": "https://github.com/edwardreyes29/WeatherApp"
+    }
+  },
+  {
+    "name": "CSUN: Self-Exploration Page",
+    "description": "Interactive Info-graphic for the CSUN Career Center Website",
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/csun-self-exploration/main-page.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/csun-self-exploration/interactive-svgs.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/csun-self-exploration/end-infographic.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/csun-self-exploration/hover-info.png"
+    ],
+    "links": {
+      "deployed": "https://www.csun.edu/career/self-exploration",
+      "github": "https://github.com/edwardreyes29/self_exploration_page"
+    }
+  },
+  {
+    "name": "Eat-Dat-Burger App",
+    "description": "A restaurant app that lets users input the names of burgers they'd like to eat.",
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/Eat-Da-Burger/master/assets/main.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Eat-Da-Burger/master/assets/devour.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Eat-Da-Burger/master/assets/full.png"
+    ],
+    "links": {
+      "deployed": "https://sheltered-earth-16745.herokuapp.com/",
+      "github": "https://github.com/edwardreyes29/Eat-Da-Burger"
+    }
+  },
+  {
+    "name": "Calendar App",
+    "description": "Allows the user to save events for each hour of the day",
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/CalendarApp/main-page.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/CalendarApp/color-coded-time.png",
+      "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/CalendarApp/responsive.png"
+    ],
+    "links": {
+      "deployed": "https://edwardreyes29.github.io/CalendarApp//",
+      "github": "https://github.com/edwardreyes29/CalendarApp"
+    }
+  },
+  {
+    "name": "Note Taker App",
+    "description": "This app uses express.js to get and post notes to a json file, allowing users to add, save, and delete notes.",
+    "images": [
+        "https://raw.githubusercontent.com/edwardreyes29/note_taker/master/assets/main.png",
+        "https://raw.githubusercontent.com/edwardreyes29/note_taker/master/assets/note1.png",
+        "https://raw.githubusercontent.com/edwardreyes29/note_taker/master/assets/note2.png"
+    ],
+    "links": { "deployed": "https://afternoon-reef-26658.herokuapp.com/", "github": "https://github.com/edwardreyes29/note_taker" }
+  },
+  {
+    "name": "Employee Tracker App",
+    "description": "This app is an Content Management Systems built with Node.js.",
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/EmployeeTracker/master/assets/main.png",
+      "https://raw.githubusercontent.com/edwardreyes29/EmployeeTracker/master/assets/budget.png"
+    ],
+    "links": { "youtube": "https://www.youtube.com/watch?v=C0KIq9OwxxA&feature=youtu.be", "github": "https://github.com/edwardreyes29/EmployeeTracker" }
+  },
+  {
+    "name": "Team Generator App",
+    "description": "Allows the user to save events for each hour of the day. ",
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/TeamGenerator/master/Assets/main.png",
+      "https://raw.githubusercontent.com/edwardreyes29/TeamGenerator/master/Assets/console.png"
+    ],
+    "links": { "youtube": "https://www.youtube.com/watch?v=2M0senCK0aU&feature=youtu.be", "github": "https://github.com/edwardreyes29/TeamGenerator" }
+  }
+]
