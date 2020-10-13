@@ -9,7 +9,7 @@ Edward Reyes
 
 ## Description (Update)
 My portfolio is now deployed using React.js
-![react-logo](https://raw.githubusercontent.com/edwardreyes29/Learning_React/c5247f4641efa8c352f4cd6f5fe43fd05f8657ab/hello-react/src/logo.svg?token=AIWOSQIQIQTM3RXJG3TCF627QUXXG)
+![](https://raw.githubusercontent.com/edwardreyes29/Learning_React/c5247f4641efa8c352f4cd6f5fe43fd05f8657ab/hello-react/src/logo.svg?token=AIWOSQMLS3HYSLLGOXHYRKS7QUYTM)
 
 ## Site information Display
 * Home page that changes background color every 8 seconds (home page only)
