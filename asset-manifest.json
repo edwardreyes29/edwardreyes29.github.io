@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cd9515c.chunk.css",
+    "main.js": "/static/js/main.3fed2514.chunk.js",
+    "main.js.map": "/static/js/main.3fed2514.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e312f208.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.40dfa7fb.chunk.js": "/static/js/2.40dfa7fb.chunk.js",
+    "static/js/2.40dfa7fb.chunk.js.map": "/static/js/2.40dfa7fb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b3f1cf864b4171b3ec2b058b94101304.js": "/precache-manifest.b3f1cf864b4171b3ec2b058b94101304.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.5cd9515c.chunk.css.map": "/static/css/main.5cd9515c.chunk.css.map",
+    "static/js/2.40dfa7fb.chunk.js.LICENSE.txt": "/static/js/2.40dfa7fb.chunk.js.LICENSE.txt",
+    "static/media/csun-logo.svg": "/static/media/csun-logo.60393fc1.svg",
+    "static/media/jumbotron-wallpaper.jpg": "/static/media/jumbotron-wallpaper.7cc20f5e.jpg",
+    "static/media/logo-white.svg": "/static/media/logo-white.6195610d.svg",
+    "static/media/logo.svg": "/static/media/logo.c62d401c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e312f208.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.40dfa7fb.chunk.js",
+    "static/css/main.5cd9515c.chunk.css",
+    "static/js/main.3fed2514.chunk.js"
+  ]
+}
