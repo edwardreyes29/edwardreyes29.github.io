@@ -2,6 +2,20 @@
   {
     "name": "Secure Travel App",
     "description": "A travel app that advises where to travel based on Coronavirus risk recommendations",
+    "technical-sheet": {
+      "paragraph": ""
+    },
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "D3.js",
+      "jQuery"
+    ],
+    "apis": [
+      {"title": "COVID-19 Statistics By Axisbits", "link": ""}
+    ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/project-1/world-cases.png",
       "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/project-1/us-cases.png",
@@ -16,6 +30,12 @@
   {
     "name": "Employee Directory Using React",
     "description": "This is an employee directory created using React.js.",
+    "technical-sheet": {
+      "paragraph": ""
+    },
+    "technologies": [
+
+    ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/main.png",
       "https://raw.githubusercontent.com/edwardreyes29/Employee_Directory/master/assets/search-dob.png",
@@ -30,6 +50,12 @@
   {
     "name": "Afterly",
     "description": "User-friendly marketplace for end of life services",
+    "technical-sheet": {
+      "paragraph": ""
+    },
+    "technologies": [
+
+    ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/login.png",
       "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/main.png",
@@ -46,6 +72,12 @@
   {
     "name": "Weather App",
     "description": "This app allows you to search a location and view weather data.",
+    "technical-sheet": {
+      "paragraph": ""
+    },
+    "technologies": [
+
+    ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/modal-images/WeatherApp-home.png",
       "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/WeatherApp/tomorrow-weather.png",
@@ -61,6 +93,12 @@
   {
     "name": "CSUN: Self-Exploration Page",
     "description": "Interactive Info-graphic for the CSUN Career Center Website",
+    "technical-sheet": {
+      "paragraph": ""
+    },
+    "technologies": [
+
+    ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/csun-self-exploration/main-page.png",
       "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/csun-self-exploration/interactive-svgs.png",
@@ -75,6 +113,12 @@
   {
     "name": "Eat-Dat-Burger App",
     "description": "A restaurant app that lets users input the names of burgers they'd like to eat.",
+    "technical-sheet": {
+      "paragraph": ""
+    },
+    "technologies": [
+
+    ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/Eat-Da-Burger/master/assets/main.png",
       "https://raw.githubusercontent.com/edwardreyes29/Eat-Da-Burger/master/assets/devour.png",
@@ -88,6 +132,12 @@
   {
     "name": "Calendar App",
     "description": "Allows the user to save events for each hour of the day",
+    "technical-sheet": {
+      "paragraph": ""
+    },
+    "technologies": [
+
+    ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/CalendarApp/main-page.png",
       "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/CalendarApp/color-coded-time.png",
@@ -101,6 +151,12 @@
   {
     "name": "Note Taker App",
     "description": "This app uses express.js to get and post notes to a json file, allowing users to add, save, and delete notes.",
+    "technical-sheet": {
+      "paragraph": ""
+    },
+    "technologies": [
+
+    ],
     "images": [
         "https://raw.githubusercontent.com/edwardreyes29/note_taker/master/assets/main.png",
         "https://raw.githubusercontent.com/edwardreyes29/note_taker/master/assets/note1.png",
@@ -111,6 +167,12 @@
   {
     "name": "Employee Tracker App",
     "description": "This app is an Content Management Systems built with Node.js.",
+    "technical-sheet": {
+      "paragraph": ""
+    },
+    "technologies": [
+
+    ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/EmployeeTracker/master/assets/main.png",
       "https://raw.githubusercontent.com/edwardreyes29/EmployeeTracker/master/assets/budget.png"
