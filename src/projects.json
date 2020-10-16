@@ -2,9 +2,8 @@
   {
     "name": "Secure Travel App",
     "description": "A travel app that advises where to travel based on Coronavirus risk recommendations",
-    "technical-sheet": {
-      "paragraph": ""
-    },
+    "long_description": "",
+    "contributions": [],
     "technologies": [
       "HTML",
       "CSS",
@@ -30,9 +29,8 @@
   {
     "name": "Employee Directory Using React",
     "description": "This is an employee directory created using React.js.",
-    "technical-sheet": {
-      "paragraph": ""
-    },
+    "long_description": "",
+    "contributions": [],
     "technologies": [
 
     ],
@@ -50,11 +48,30 @@
   {
     "name": "Afterly",
     "description": "User-friendly marketplace for end of life services",
-    "technical-sheet": {
-      "paragraph": ""
-    },
+    "long_description": "This app was a project created to create a all-in-one market place for end of life care. It provides an easy-to-use web platform to organize end of life services. It allows users to save information of available Hospice cares, Lawyers, Life-insurance, and Funeral Homes. Users can create their own cases for several family members.",
+    "contributions": [
+      "Configured the passport login to work with our app",
+      "Set up the table templates",
+      "Created User table, Case table, and EstateLaw table",
+      "Created yelp functions that incorporate yelp-fusion api calls",
+      "Set up yelp-api-routes, html-routes, and api-table-routes",
+      "Used ajax to make request to routes in order to get data, store data to tables",
+      "Created the logic to send parameters to each page in order to save forms to the current case selected"
+    ],
     "technologies": [
-
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Semantic UI",
+      "MySQL",
+      "Sequelize",
+      "jQuery",
+      "Express.js",
+      "Passport.js",
+      "Bycrypt.js",
+      "yelp-fusion.js",
+      "yelp API"
     ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/login.png",
@@ -72,9 +89,8 @@
   {
     "name": "Weather App",
     "description": "This app allows you to search a location and view weather data.",
-    "technical-sheet": {
-      "paragraph": ""
-    },
+    "long_description": "",
+    "contributions": [],
     "technologies": [
 
     ],
@@ -91,13 +107,21 @@
     }
   },
   {
-    "name": "CSUN: Self-Exploration Page",
+    "name": "CSUN Career Center: Self-Exploration Page",
     "description": "Interactive Info-graphic for the CSUN Career Center Website",
-    "technical-sheet": {
-      "paragraph": ""
-    },
+    "long_description": "An interactive infographic for CSUN's Career Center's website. I was tasked with creating an interactive page to add more content for the Virtual Services section. The page display information in a meaningful way while increasing engagement with student's exploring the content. There are hover animations, clickable events, static animations, an wonderful designs from our previous illustrator whose assets I used and referenced to create this page. This is one of my very first projects using web development technologies. It was a great learning experience working on it and being part of the Career Center's team.",
+    "contributions": [
+      "Used existing assets to implement to the page and add events and animations to them",
+      "Created other svg assets to complete the infographic",
+      "Created several prototypes using Adobe XD",
+      "Use CSS & JavaScript to add animations and animation events"
+    ],
     "technologies": [
-
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Adobe XD",
+      "Adobe Illustrator"
     ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/portfolio/master/assets/images/csun-self-exploration/main-page.png",
@@ -113,9 +137,8 @@
   {
     "name": "Eat-Dat-Burger App",
     "description": "A restaurant app that lets users input the names of burgers they'd like to eat.",
-    "technical-sheet": {
-      "paragraph": ""
-    },
+    "long_description": "",
+    "contributions": [],
     "technologies": [
 
     ],
@@ -132,9 +155,8 @@
   {
     "name": "Calendar App",
     "description": "Allows the user to save events for each hour of the day",
-    "technical-sheet": {
-      "paragraph": ""
-    },
+    "long_description": "",
+    "contributions": [],
     "technologies": [
 
     ],
@@ -151,9 +173,8 @@
   {
     "name": "Note Taker App",
     "description": "This app uses express.js to get and post notes to a json file, allowing users to add, save, and delete notes.",
-    "technical-sheet": {
-      "paragraph": ""
-    },
+    "long_description": "",
+    "contributions": [],
     "technologies": [
 
     ],
@@ -167,9 +188,8 @@
   {
     "name": "Employee Tracker App",
     "description": "This app is an Content Management Systems built with Node.js.",
-    "technical-sheet": {
-      "paragraph": ""
-    },
+    "long_description": "",
+    "contributions": [],
     "technologies": [
 
     ],
@@ -182,6 +202,11 @@
   {
     "name": "Team Generator App",
     "description": "Allows the user to save events for each hour of the day. ",
+    "long_description": "",
+    "contributions": [],
+    "technologies": [
+
+    ],
     "images": [
       "https://raw.githubusercontent.com/edwardreyes29/TeamGenerator/master/Assets/main.png",
       "https://raw.githubusercontent.com/edwardreyes29/TeamGenerator/master/Assets/console.png"

@@ -24,6 +24,7 @@ const Contact = () => {
     <Container style={styles.textStyle}>
       <ExpandMoreIcon style={styles.expandMoreIcon}/>
       <h2>Please feel free to get in touch, and I will respond as soon as possible.</h2>
+      <p>If you prefer to contact me directly, send your email to: <span style={{fontWeight: 700}}>reyes.edwardf@gmail.com</span></p>
       <div className='d-flex justify-content-center'>
         <ContactForm />
       </div>

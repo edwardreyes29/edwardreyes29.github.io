@@ -5,6 +5,7 @@ import { Button, Modal, Row, Col } from 'react-bootstrap';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LaunchIcon from '@material-ui/icons/Launch';
 import InfoIcon from '@material-ui/icons/Info';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 // Components
 import ProjectCarousel from './ProjectCarousel';
 import CustomButton from './Button';
@@ -50,9 +51,20 @@ const ProjectModal = ({hoverState, data}) => {
             </Col>
             <Col xs={12} md={5} style={{height: '48vh', overflow: 'hidden'}}>
               <div style={{overflow:'auto', height: '100%'}}>
-              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                <h3>Description</h3>
+                <p>{data.long_description}</p>
+                <h3>Contributions</h3>
+                <ul>
+                  {data.contributions.map(contribution => <>
+                    <li>{contribution}</li>
+                  </>)}
+                </ul>
+                <h3>Technologies</h3>
+                <ul>
+                  {data.technologies.map(tech => <>
+                    <li>{tech}</li>
+                  </>)}
+                </ul>
               </div>
             </Col>
           </Row>
@@ -60,13 +72,24 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
         </Modal.Body>
         <Modal.Footer style={{background: '#121212'}}>
           <div class='mr-2 d-flex justify-content-center'>
-            <LaunchIcon style={styles.linkIcons}/>
-            <a
-              href={data.links.deployed} target='_blank'
-              style={{ color: '#fff' }}
-              className='ml-1'>
-              Website
-            </a>
+            {data.links.deployed && <>
+              <LaunchIcon style={styles.linkIcons}/>
+              <a
+                href={data.links.deployed} target='_blank'
+                style={{ color: '#fff' }}
+                className='ml-1'>
+                Website
+              </a>
+            </>}
+            {data.links.youtube && <>
+              <YouTubeIcon style={styles.linkIcons}/>
+              <a
+                href={data.links.deployed} target='_blank'
+                style={{ color: '#fff' }}
+                className='ml-1'>
+                Demo
+              </a>
+            </>}
           </div>
           <div className='mr-auto d-flex justify-content-center'>
             <GitHubIcon style={styles.linkIcons}/>
