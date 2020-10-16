@@ -56,22 +56,22 @@ const ProjectCard = ({ data }) => {
         style={cardStyle}
         onMouseEnter={hoverTrue} onMouseLeave={hoverFalse}
       >
-          <Card.Title style={{fontSize: '1.4vw'}}>{data.name}</Card.Title>
-          <Card.Text style={{fontSize: '1vw'}}>{data.description}</Card.Text>
-          <Row className='mb-2'>
-            <Col>
+          <Card.Title style={{fontSize: '18px'}}>{data.name}</Card.Title>
+          <Card.Text style={{fontSize: '16px'}}>{data.description}</Card.Text>
+          <Row xs={1} md={2} lg={2} className='mb-2'>
+            <Col className='mb-1'>
               <Modal 
                 hoverState={toggleClose} 
                 data={data}
               />
             </Col>
-            <Col>
+            <Col className='mb-1'>
               {data.links.deployed && (
                 <Button variant='outline-light'>
-                  <LaunchIcon style={{fontSize: '1vw'}}/>
+                  <LaunchIcon style={{fontSize: '16px'}}/>
                   <a
                     href={data.links.deployed} target='_blank'
-                    style={{ textDecoration: 'none', color: 'inherit', fontSize: '1vw'}}
+                    style={{ textDecoration: 'none', color: 'inherit', fontSize: '16px'}}
                     className='ml-1'>
                     Website
                   </a>
@@ -79,10 +79,10 @@ const ProjectCard = ({ data }) => {
               )}
               {data.links.youtube && (
                 <Button variant='outline-light'>
-                  <YouTubeIcon style={{fontSize: '1vw'}}/>
+                  <YouTubeIcon style={{fontSize: '1px'}}/>
                   <a
                     href={data.links.youtube} target='_blank'
-                    style={{ textDecoration: 'none', color: 'inherit', fontSize: '1vw'}}
+                    style={{ textDecoration: 'none', color: 'inherit', fontSize: '16px'}}
                     className='ml-1'>
                     Demo
                   </a>

@@ -30,8 +30,8 @@ const ProjectModal = ({hoverState, data}) => {
   return (
     <>
       <Button variant="outline-light" onClick={handleShow}>
-        <InfoIcon style={{fontSize: '1vw'}}/>
-        <span className='ml-1' style={{fontSize: '1vw'}}>Learn more</span>
+        <InfoIcon style={{fontSize: '16px'}}/>
+        <span className='ml-1' style={{fontSize: '16px'}}>Learn more</span>
       </Button>
 
       <Modal 
