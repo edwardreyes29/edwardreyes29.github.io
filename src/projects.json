@@ -1,5 +1,60 @@
 [
   {
+    "name": "Music eXchange",
+    "description": "This a MERN Stack e-commerce music app that allows users to share sell their music.",
+    "long_description": "User's can manage their profile page by updating their profile picture, descriptions about themselves, adding social media links, and list instruments a member has experience with. Users who purchase other music can listen to all their purchased music on the home page.",
+    "contributions": [
+      "Create HTML and API routes to visit user profiles, purchase songs, save favorite users, save songs, and create and save requests.",
+      "Create User’s table that stores information for each user",
+      "Create songs table and schema",
+      "Create purchased songs array that stores the purchased songs",
+      "Create table and schema for tutorials",
+      "Create routes and controller functions to allow a user to edit their profile",
+      "Creating search functionality to allow users to search for other users.",
+      "Created the account page forms to update account information",
+      "Used Cloudinary Node.js Package to upload audio and images and added functions to remove stored Cloudinary files dynamically.",
+      "Used react-image-crop to allow users to crop their select profile picture, this was done to keep all profile styling consistent.",
+      "Created the Songs page and media players to allow users to view their songs on their account, profile page, and home page.",
+      "Responsible for the styling and placement of all media players.",
+      "Created Jumbotron images and logos using Adobe XD."
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Materialize-UI",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose.js",
+      "React.js",
+      "react-media-player",
+      "react-image-crop",
+      "PayPal API",
+      "Cloudinary"
+    ],
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/home.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/explore.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/songs.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/profile-page.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/profile-2.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/profile-3.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/account.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/account-5.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/account-2.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/account-3.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/paypal.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Muse-eXchange/master/client/src/assets/screenshots/team.png"
+
+    ],
+    "links": {
+      "deployed": "https://musicexchangev2.herokuapp.com/",
+      "github": "https://github.com/edwardreyes29/Muse-eXchange"
+    }
+  },
+  {
     "name": "Secure Travel App",
     "description": "A travel app that advises where to travel based on Coronavirus risk recommendations",
     "long_description": "A travel app that advises the user where they should travel based on Coronavirus risk recommendations and provides the user with travel accommodation options. It shows Covid related data World-wide and in the U.S. User's can see total confirmed deaths, total confirmed cases, view cases on a D3.js generated map, and see risk levels of hotel locations.",
