@@ -124,43 +124,22 @@
     }
   },
   {
-    "name": "Afterly",
-    "description": "User-friendly marketplace for end of life services",
-    "long_description": "This app was a project created to create a all-in-one market place for end of life care. It provides an easy-to-use web platform to organize end of life services. It allows users to save information of available Hospice cares, Lawyers, Life-insurance, and Funeral Homes. Users can create their own cases for several family members.",
-    "contributions": [
-      "Configured the passport login to work with our app",
-      "Set up the table templates",
-      "Created User table, Case table, and EstateLaw table",
-      "Created yelp functions that incorporate yelp-fusion api calls",
-      "Set up yelp-api-routes, html-routes, and api-table-routes",
-      "Used ajax to make request to routes in order to get data, store data to tables",
-      "Created the logic to send parameters to each page in order to save forms to the current case selected"
-    ],
+    "name": "Snake Game using Vanilla JavaScript",
+    "description": "Built a snake game using JavaScript just for fun!",
+    "long_description": "I learned a few things like using requestAnimationFrame and game development concepts.",
+    "contributions": [],
     "technologies": [
       "HTML",
       "CSS",
-      "JavaScript",
-      "Bootstrap",
-      "Semantic UI",
-      "MySQL",
-      "Sequelize",
-      "jQuery",
-      "Express.js",
-      "Passport.js",
-      "Bycrypt.js",
-      "yelp-fusion.js",
-      "yelp API"
+      "JavaScript"
     ],
     "images": [
-      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/login.png",
-      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/main.png",
-      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/form.png",
-      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/after-select.png",
-      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/generate-doc.png"
+      "https://raw.githubusercontent.com/edwardreyes29/snakeGame/main/assets/screenshot-2.png",
+      "https://raw.githubusercontent.com/edwardreyes29/snakeGame/main/assets/screenshot-1.png"
     ],
     "links": {
-      "deployed": "https://sheltered-escarpment-16015.herokuapp.com/",
-      "github": "https://github.com/edwardreyes29/Afterly"
+      "deployed": "https://edwardreyes29.github.io/snakeGame/",
+      "github": "https://github.com/edwardreyes29/snakeGame"
     }
   },
   {
@@ -222,6 +201,46 @@
     "links": {
       "deployed": "https://www.csun.edu/career/self-exploration",
       "github": "https://github.com/edwardreyes29/self_exploration_page"
+    }
+  },
+  {
+    "name": "Afterly",
+    "description": "User-friendly marketplace for end of life services",
+    "long_description": "This app was a project created to create a all-in-one market place for end of life care. It provides an easy-to-use web platform to organize end of life services. It allows users to save information of available Hospice cares, Lawyers, Life-insurance, and Funeral Homes. Users can create their own cases for several family members.",
+    "contributions": [
+      "Configured the passport login to work with our app",
+      "Set up the table templates",
+      "Created User table, Case table, and EstateLaw table",
+      "Created yelp functions that incorporate yelp-fusion api calls",
+      "Set up yelp-api-routes, html-routes, and api-table-routes",
+      "Used ajax to make request to routes in order to get data, store data to tables",
+      "Created the logic to send parameters to each page in order to save forms to the current case selected"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Semantic UI",
+      "MySQL",
+      "Sequelize",
+      "jQuery",
+      "Express.js",
+      "Passport.js",
+      "Bycrypt.js",
+      "yelp-fusion.js",
+      "yelp API"
+    ],
+    "images": [
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/login.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/main.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/form.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/after-select.png",
+      "https://raw.githubusercontent.com/edwardreyes29/Afterly/master/assets/generate-doc.png"
+    ],
+    "links": {
+      "deployed": "https://sheltered-escarpment-16015.herokuapp.com/",
+      "github": "https://github.com/edwardreyes29/Afterly"
     }
   },
   {
